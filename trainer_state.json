@@ -1,0 +1,38 @@
+{
+  "best_metric": 0.791970802919708,
+  "best_model_checkpoint": "./drive/MyDrive/optt-models/final-model/checkpoint-1105",
+  "epoch": 1.0,
+  "global_step": 1105,
+  "is_hyper_param_search": false,
+  "is_local_process_zero": true,
+  "is_world_process_zero": true,
+  "log_history": [
+    {
+      "epoch": 0.45,
+      "learning_rate": 1.3841085972850678e-05,
+      "loss": 0.4538,
+      "step": 500
+    },
+    {
+      "epoch": 0.9,
+      "learning_rate": 2.402171945701357e-06,
+      "loss": 0.3861,
+      "step": 1000
+    },
+    {
+      "epoch": 1.0,
+      "eval_balanced_accuracy": 0.8388926136998547,
+      "eval_f1": 0.791970802919708,
+      "eval_loss": 0.4423656761646271,
+      "eval_runtime": 2.1426,
+      "eval_samples_per_second": 343.975,
+      "eval_steps_per_second": 43.405,
+      "step": 1105
+    }
+  ],
+  "max_steps": 1105,
+  "num_train_epochs": 1,
+  "total_flos": 178216628904000.0,
+  "trial_name": null,
+  "trial_params": null
+}
